@@ -1,10 +1,20 @@
-# Grounded extraction: evidence, verification, and abstain
+# Grounded LLM Extraction: Evidence, Verification, and Abstain
 
 > A confident wrong answer is worse than no answer.
 
-**Status:** draft
+**Status:** draft · **Series:** [Production AI for Document-Heavy Workflows](../../README.md), part 1 of 8
 
-Don't trust what the model says about its own confidence. Make it show evidence, check that evidence with code, and send anything unverified to a human.
+**TL;DR:** Don't trust what the model says about its own confidence. Make it show evidence (a quote and a page number for every field), check that evidence with code, and send anything unverified to a human reviewer. The goal is a much lower *silent error rate* in exchange for a slightly higher review rate.
+
+**You will learn how to:**
+
+- Design an extraction schema that requires citations or an explicit `not_found`
+- Verify LLM output with deterministic code instead of a second LLM call
+- Detect conflicting values, such as an amendment overriding the original contract
+- Measure silent errors, abstain correctness, and citation validity
+- Route low-confidence fields to a human review queue with a reason
+
+**Topics:** LLM information extraction, hallucination prevention, grounding and citations, structured output, contract data extraction, human-in-the-loop, LLM evaluation.
 
 ## 1. The failure
 
