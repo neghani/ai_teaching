@@ -1,0 +1,51 @@
+{
+  "raw": {
+    "vendor_name": {
+      "status": "not_found",
+      "evidence_quote": null,
+      "page": null,
+      "value": null,
+      "confidence": 0
+    },
+    "effective_date": {
+      "status": "found",
+      "evidence_quote": "\"This Master Services Agreement (the \\\"Agreement\\\") is entered into as of 2025-02-24 (the \\\"Effective Date\\\")\"",
+      "page": 1,
+      "value": "2025-02-24",
+      "confidence": 1
+    },
+    "term_months": {
+      "status": "found",
+      "evidence_quote": "\"The initial term of this Agreement is two (2) years, beginning on the Effective Date (the \\\"Initial Term\\\")\"",
+      "page": 1,
+      "value": 24,
+      "confidence": 1
+    },
+    "total_contract_value": {
+      "status": "found",
+      "evidence_quote": "\"The total contract value payable by Customer under this Agreement is $688,000.00 (the \\\"Total Contract Value\\\")\"",
+      "page": 2,
+      "value": "USD 688000.00",
+      "confidence": 1
+    },
+    "termination_notice_days": {
+      "status": "found",
+      "evidence_quote": "\"Either party may terminate this Agreement for convenience upon forty-five (45) days' prior written notice to the other party\"",
+      "page": 3,
+      "value": 45,
+      "confidence": 1
+    },
+    "auto_renewal": {
+      "status": "found",
+      "evidence_quote": "\"This Agreement shall not renew automatically. Any extension requires a written amendment signed by both parties\"",
+      "page": 2,
+      "value": false,
+      "confidence": 1
+    }
+  },
+  "usage": {
+    "prompt_tokens": 879,
+    "completion_tokens": 424,
+    "latency_s": 22.359
+  }
+}

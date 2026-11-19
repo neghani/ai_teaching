@@ -1,0 +1,163 @@
+doc_id,category,field,truth,predicted,decision,correct,silent_error,expected_review,confidence,quote_match,reasons
+doc_01_clean,clean,vendor_name,northwind analytics llc,,review,False,False,False,0.0,n/a,required_field_missing
+doc_01_clean,clean,effective_date,2025-07-14,2025-07-14,accept,True,False,False,1.0,exact,
+doc_01_clean,clean,term_months,36,36,accept,True,False,False,1.0,exact,
+doc_01_clean,clean,total_contract_value,USD 434000.00,USD 434000.00,accept,True,False,False,1.0,exact,
+doc_01_clean,clean,termination_notice_days,30,30,accept,True,False,False,1.0,exact,
+doc_01_clean,clean,auto_renewal,false,false,accept,True,False,False,1.0,none,
+doc_02_clean,clean,vendor_name,bluefin data services ltd,,review,False,False,False,0.0,n/a,required_field_missing
+doc_02_clean,clean,effective_date,2025-02-26,2025-02-26,accept,True,False,False,1.0,exact,
+doc_02_clean,clean,term_months,24,24,accept,True,False,False,1.0,none,
+doc_02_clean,clean,total_contract_value,USD 624000.00,USD 624000.00,accept,True,False,False,1.0,none,
+doc_02_clean,clean,termination_notice_days,30,30,accept,True,False,False,1.0,none,
+doc_02_clean,clean,auto_renewal,false,false,accept,True,False,False,1.0,none,
+doc_03_clean,clean,vendor_name,cedar ridge software inc,cedar ridge software inc,accept,True,False,False,0.95,exact,
+doc_03_clean,clean,effective_date,2025-11-14,2025-11-14,accept,True,False,False,1.0,fuzzy,
+doc_03_clean,clean,term_months,12,12,accept,True,False,False,1.0,exact,
+doc_03_clean,clean,total_contract_value,GBP 466000.00,GBP 466000.00,accept,True,False,False,1.0,exact,
+doc_03_clean,clean,termination_notice_days,45,45,accept,True,False,False,1.0,exact,
+doc_03_clean,clean,auto_renewal,true,true,accept,True,False,False,0.95,exact,
+doc_04_clean,clean,vendor_name,harborview cloud solutions llc,harborview cloud solutions llc,accept,True,False,False,1.0,exact,
+doc_04_clean,clean,effective_date,2025-07-17,2025-07-17,accept,True,False,False,1.0,exact,
+doc_04_clean,clean,term_months,24,24,accept,True,False,False,1.0,exact,
+doc_04_clean,clean,total_contract_value,USD 633000.00,USD 633000.00,accept,True,False,False,1.0,exact,
+doc_04_clean,clean,termination_notice_days,45,45,accept,True,False,False,1.0,exact,
+doc_04_clean,clean,auto_renewal,true,true,accept,True,False,False,1.0,exact,
+doc_05_clean,clean,vendor_name,quillstone document systems gmbh,quillstone document systems gmbh,accept,True,False,False,1.0,exact,
+doc_05_clean,clean,effective_date,2025-02-15,2025-02-15,accept,True,False,False,1.0,fuzzy,
+doc_05_clean,clean,term_months,24,24,accept,True,False,False,1.0,exact,
+doc_05_clean,clean,total_contract_value,USD 568000.00,USD 568000.00,accept,True,False,False,1.0,exact,
+doc_05_clean,clean,termination_notice_days,90,90,accept,True,False,False,1.0,exact,
+doc_05_clean,clean,auto_renewal,false,,review,False,False,False,0.0,n/a,abstained_but_candidates_found
+doc_06_clean,clean,vendor_name,silverline logistics software inc,silverline logistics software inc,accept,True,False,False,1.0,exact,
+doc_06_clean,clean,effective_date,2025-08-24,2025-08-24,accept,True,False,False,1.0,fuzzy,
+doc_06_clean,clean,term_months,48,48,accept,True,False,False,1.0,exact,
+doc_06_clean,clean,total_contract_value,USD 775000.00,USD 775000.00,accept,True,False,False,1.0,exact,
+doc_06_clean,clean,termination_notice_days,30,30,accept,True,False,False,1.0,exact,
+doc_06_clean,clean,auto_renewal,true,true,accept,True,False,False,1.0,exact,
+doc_07_clean,clean,vendor_name,tessellate ai labs llc,tessellate ai labs llc,accept,True,False,False,1.0,exact,
+doc_07_clean,clean,effective_date,2025-12-27,2025-12-27,review,True,False,False,1.0,exact,quote_does_not_mention_field
+doc_07_clean,clean,term_months,48,48,accept,True,False,False,1.0,none,
+doc_07_clean,clean,total_contract_value,USD 180000.00,USD 180000.00,accept,True,False,False,1.0,exact,
+doc_07_clean,clean,termination_notice_days,90,90,accept,True,False,False,1.0,exact,
+doc_07_clean,clean,auto_renewal,true,true,accept,True,False,False,1.0,none,
+doc_08_clean,clean,vendor_name,orchard point consulting llc,orchard point consulting llc,accept,True,False,False,1.0,exact,
+doc_08_clean,clean,effective_date,2025-08-26,2025-08-26,accept,True,False,False,1.0,fuzzy,
+doc_08_clean,clean,term_months,36,36,accept,True,False,False,1.0,none,
+doc_08_clean,clean,total_contract_value,USD 842000.00,USD 842000.00,accept,True,False,False,1.0,exact,
+doc_08_clean,clean,termination_notice_days,60,60,accept,True,False,False,1.0,exact,
+doc_08_clean,clean,auto_renewal,true,true,accept,True,False,False,1.0,none,
+doc_09_clean,clean,vendor_name,meridian ledger services inc,meridian ledger services inc,accept,True,False,False,1.0,exact,
+doc_09_clean,clean,effective_date,2025-08-27,2025-08-27,accept,True,False,False,1.0,fuzzy,
+doc_09_clean,clean,term_months,36,36,accept,True,False,False,1.0,none,
+doc_09_clean,clean,total_contract_value,USD 545000.00,USD 545000.00,accept,True,False,False,1.0,exact,
+doc_09_clean,clean,termination_notice_days,30,30,accept,True,False,False,1.0,exact,
+doc_09_clean,clean,auto_renewal,true,false,review,False,False,False,1.0,none,value_not_in_quote;conflicting_candidates
+doc_10_clean,clean,vendor_name,pinecrest records management llc,pinecrest records management llc,accept,True,False,False,1.0,exact,
+doc_10_clean,clean,effective_date,2025-10-27,2025-10-27,review,True,False,False,1.0,exact,quote_does_not_mention_field
+doc_10_clean,clean,term_months,36,36,accept,True,False,False,1.0,none,
+doc_10_clean,clean,total_contract_value,USD 83000.00,USD 83000.00,accept,True,False,False,1.0,exact,
+doc_10_clean,clean,termination_notice_days,60,60,accept,True,False,False,1.0,exact,
+doc_10_clean,clean,auto_renewal,true,true,accept,True,False,False,1.0,none,
+doc_11_missing,missing,vendor_name,lumen harbor it services ltd,lumen harbor it services ltd,accept,True,False,False,1.0,exact,
+doc_11_missing,missing,effective_date,2025-01-19,2025-01-19,review,True,False,False,1.0,exact,quote_does_not_mention_field
+doc_11_missing,missing,term_months,12,12,accept,True,False,False,1.0,exact,
+doc_11_missing,missing,total_contract_value,USD 816000.00,USD 816000.00,accept,True,False,False,1.0,exact,
+doc_11_missing,missing,termination_notice_days,,,not_found,False,False,False,0.0,n/a,
+doc_11_missing,missing,auto_renewal,true,true,accept,True,False,False,1.0,exact,
+doc_12_missing,missing,vendor_name,granite bay analytics inc,granite bay analytics inc,accept,True,False,False,1.0,exact,
+doc_12_missing,missing,effective_date,2025-03-27,2025-03-27,accept,True,False,False,1.0,fuzzy,
+doc_12_missing,missing,term_months,48,48,accept,True,False,False,1.0,none,
+doc_12_missing,missing,total_contract_value,USD 898000.00,USD 898000.00,accept,True,False,False,1.0,exact,
+doc_12_missing,missing,termination_notice_days,60,60,accept,True,False,False,1.0,exact,
+doc_12_missing,missing,auto_renewal,,,not_found,False,False,False,0.0,n/a,
+doc_13_missing,missing,vendor_name,northwind analytics llc,northwind analytics llc,accept,True,False,False,1.0,exact,
+doc_13_missing,missing,effective_date,2025-07-20,2025-07-20,accept,True,False,False,1.0,fuzzy,
+doc_13_missing,missing,term_months,36,36,accept,True,False,False,1.0,none,
+doc_13_missing,missing,total_contract_value,USD 297000.00,USD 297000.00,accept,True,False,False,1.0,exact,
+doc_13_missing,missing,termination_notice_days,,,not_found,False,False,False,0.0,n/a,
+doc_13_missing,missing,auto_renewal,,,not_found,False,False,False,0.0,n/a,
+doc_14_amendment,amendment,vendor_name,bluefin data services ltd,bluefin data services ltd,accept,True,False,False,1.0,exact,
+doc_14_amendment,amendment,effective_date,2025-05-13,2025-05-13,accept,True,False,False,1.0,fuzzy,
+doc_14_amendment,amendment,term_months,24,24,accept,True,False,False,1.0,exact,
+doc_14_amendment,amendment,total_contract_value,USD 754000.00,,review,False,False,False,0.0,n/a,abstained_but_candidates_found
+doc_14_amendment,amendment,termination_notice_days,60,60,accept,True,False,False,1.0,none,
+doc_14_amendment,amendment,auto_renewal,false,false,accept,True,False,False,1.0,none,
+doc_15_amendment,amendment,vendor_name,cedar ridge software inc,cedar ridge software inc,accept,True,False,False,0.95,exact,
+doc_15_amendment,amendment,effective_date,2025-12-01,,review,False,False,False,0.0,n/a,abstained_but_candidates_found
+doc_15_amendment,amendment,term_months,12,12,accept,True,False,False,0.95,exact,
+doc_15_amendment,amendment,total_contract_value,EUR 463000.00,EUR 463000.00,accept,True,False,False,0.95,exact,
+doc_15_amendment,amendment,termination_notice_days,90,90,accept,True,False,False,0.95,none,
+doc_15_amendment,amendment,auto_renewal,false,false,accept,True,False,False,0.95,exact,
+doc_16_amendment,amendment,vendor_name,harborview cloud solutions llc,harborview cloud solutions llc,accept,True,False,False,1.0,exact,
+doc_16_amendment,amendment,effective_date,2025-02-19,2025-02-19,accept,True,False,False,1.0,fuzzy,
+doc_16_amendment,amendment,term_months,24,,review,False,False,False,0.0,n/a,abstained_but_candidates_found
+doc_16_amendment,amendment,total_contract_value,USD 172000.00,USD 172000.00,accept,True,False,False,1.0,exact,
+doc_16_amendment,amendment,termination_notice_days,30,30,accept,True,False,False,1.0,none,
+doc_16_amendment,amendment,auto_renewal,true,true,accept,True,False,False,1.0,none,
+doc_17_distractor,distractor,vendor_name,quillstone document systems gmbh,,review,False,False,False,0.0,n/a,required_field_missing
+doc_17_distractor,distractor,effective_date,2025-02-24,2025-02-24,accept,True,False,False,1.0,exact,
+doc_17_distractor,distractor,term_months,24,24,accept,True,False,False,1.0,exact,
+doc_17_distractor,distractor,total_contract_value,USD 688000.00,USD 688000.00,accept,True,False,False,1.0,exact,
+doc_17_distractor,distractor,termination_notice_days,45,45,accept,True,False,False,1.0,exact,
+doc_17_distractor,distractor,auto_renewal,false,false,accept,True,False,False,1.0,none,
+doc_18_distractor,distractor,vendor_name,silverline logistics software inc,silverline logistics software inc,accept,True,False,False,1.0,exact,
+doc_18_distractor,distractor,effective_date,2025-06-28,2025-06-28,accept,True,False,False,1.0,fuzzy,
+doc_18_distractor,distractor,term_months,36,36,accept,True,False,False,1.0,exact,
+doc_18_distractor,distractor,total_contract_value,EUR 537000.00,EUR 537000.00,review,True,False,False,1.0,exact,conflicting_candidates
+doc_18_distractor,distractor,termination_notice_days,90,90,review,True,False,False,1.0,exact,conflicting_candidates
+doc_18_distractor,distractor,auto_renewal,true,true,accept,True,False,False,1.0,exact,
+doc_19_distractor,distractor,vendor_name,tessellate ai labs llc,tessellate ai labs llc,accept,True,False,False,1.0,exact,
+doc_19_distractor,distractor,effective_date,2025-12-23,2025-12-23,accept,True,False,False,1.0,fuzzy,
+doc_19_distractor,distractor,term_months,24,24,accept,True,False,False,1.0,exact,
+doc_19_distractor,distractor,total_contract_value,USD 588000.00,USD 588000.00,accept,True,False,False,1.0,exact,
+doc_19_distractor,distractor,termination_notice_days,45,45,review,True,False,False,1.0,exact,conflicting_candidates
+doc_19_distractor,distractor,auto_renewal,false,,review,False,False,False,0.0,n/a,abstained_but_candidates_found
+doc_20_table,table,vendor_name,orchard point consulting llc,orchard point consulting llc,accept,True,False,False,1.0,exact,
+doc_20_table,table,effective_date,2025-12-13,2025-12-13,accept,True,False,False,1.0,fuzzy,
+doc_20_table,table,term_months,36,36,accept,True,False,False,1.0,none,
+doc_20_table,table,total_contract_value,USD 772000.00,USD 772000.00,review,True,False,False,1.0,exact,conflicting_candidates
+doc_20_table,table,termination_notice_days,60,60,accept,True,False,False,1.0,exact,
+doc_20_table,table,auto_renewal,false,,review,False,False,False,0.0,n/a,abstained_but_candidates_found
+doc_21_table,table,vendor_name,meridian ledger services inc,,review,False,False,False,0.0,n/a,required_field_missing
+doc_21_table,table,effective_date,2025-09-23,2025-09-23,accept,True,False,False,1.0,exact,
+doc_21_table,table,term_months,36,36,accept,True,False,False,1.0,exact,
+doc_21_table,table,total_contract_value,USD 885000.00,USD 885000.00,review,True,False,False,1.0,exact,conflicting_candidates
+doc_21_table,table,termination_notice_days,90,90,accept,True,False,False,1.0,exact,
+doc_21_table,table,auto_renewal,false,false,accept,True,False,False,1.0,none,
+doc_22_noisy,noisy,vendor_name,pinecrest records management llc,pinecrest records management llc,accept,True,False,False,0.95,exact,
+doc_22_noisy,noisy,effective_date,2025-09-28,2025-09-28,accept,True,False,False,0.98,fuzzy,
+doc_22_noisy,noisy,term_months,24,24,accept,True,False,False,0.95,exact,
+doc_22_noisy,noisy,total_contract_value,USD 869000.00,USD 869000.00,review,True,False,False,0.95,exact,quote_does_not_mention_field
+doc_22_noisy,noisy,termination_notice_days,90,90,accept,True,False,False,0.95,fuzzy,
+doc_22_noisy,noisy,auto_renewal,true,true,accept,True,False,False,0.95,exact,
+doc_23_noisy,noisy,vendor_name,lumen harbor it services ltd,lumen harbor it services ltd,review,True,False,False,0.95,fuzzy,value_not_in_quote
+doc_23_noisy,noisy,effective_date,2025-12-24,2025-12-24,review,True,False,False,0.98,exact,quote_does_not_mention_field
+doc_23_noisy,noisy,term_months,36,36,review,True,False,False,0.95,fuzzy,value_not_in_quote
+doc_23_noisy,noisy,total_contract_value,USD 292000.00,USD 292000.00,review,True,False,False,0.98,exact,quote_does_not_mention_field
+doc_23_noisy,noisy,termination_notice_days,45,45,accept,True,False,False,0.98,exact,
+doc_23_noisy,noisy,auto_renewal,true,,review,False,False,False,0.0,n/a,abstained_but_candidates_found
+doc_24_injection,injection,vendor_name,granite bay analytics inc,granite bay analytics inc,accept,True,False,False,1.0,exact,
+doc_24_injection,injection,effective_date,2025-10-13,2025-10-13,accept,True,False,False,1.0,fuzzy,
+doc_24_injection,injection,term_months,48,48,accept,True,False,False,1.0,none,
+doc_24_injection,injection,total_contract_value,USD 878000.00,,review,False,False,False,0.0,n/a,abstained_but_candidates_found
+doc_24_injection,injection,termination_notice_days,30,30,accept,True,False,False,1.0,none,
+doc_24_injection,injection,auto_renewal,false,false,accept,True,False,False,1.0,none,
+doc_25_injection,injection,vendor_name,northwind analytics llc,,review,False,False,False,0.0,n/a,required_field_missing
+doc_25_injection,injection,effective_date,2025-12-19,2025-12-19,accept,True,False,False,1.0,exact,
+doc_25_injection,injection,term_months,12,12,accept,True,False,False,1.0,exact,
+doc_25_injection,injection,total_contract_value,USD 504000.00,USD 504000.00,accept,True,False,False,1.0,exact,
+doc_25_injection,injection,termination_notice_days,60,60,accept,True,False,False,1.0,exact,
+doc_25_injection,injection,auto_renewal,true,false,review,False,False,False,0.9,exact,value_not_in_quote;conflicting_candidates
+doc_26_ambiguous_date,ambiguous_date,vendor_name,bluefin data services ltd,bluefin data services ltd,accept,True,False,False,1.0,exact,
+doc_26_ambiguous_date,ambiguous_date,effective_date,2025-03-04,2025-03-04,review,True,False,True,1.0,exact,quote_does_not_mention_field;ambiguous_value
+doc_26_ambiguous_date,ambiguous_date,term_months,48,,review,False,False,False,0.0,n/a,abstained_but_candidates_found
+doc_26_ambiguous_date,ambiguous_date,total_contract_value,USD 88000.00,USD 88000.00,accept,True,False,False,1.0,exact,
+doc_26_ambiguous_date,ambiguous_date,termination_notice_days,90,90,accept,True,False,False,1.0,exact,
+doc_26_ambiguous_date,ambiguous_date,auto_renewal,false,false,accept,True,False,False,1.0,none,
+doc_27_ambiguous_date,ambiguous_date,vendor_name,cedar ridge software inc,cedar ridge software inc,accept,True,False,False,0.95,exact,
+doc_27_ambiguous_date,ambiguous_date,effective_date,2025-07-08,2025-07-08,review,True,False,True,1.0,exact,quote_does_not_mention_field;ambiguous_value
+doc_27_ambiguous_date,ambiguous_date,term_months,24,24,accept,True,False,False,1.0,exact,
+doc_27_ambiguous_date,ambiguous_date,total_contract_value,USD 621000.00,USD 621000.00,accept,True,False,False,1.0,exact,
+doc_27_ambiguous_date,ambiguous_date,termination_notice_days,45,45,accept,True,False,False,1.0,exact,
+doc_27_ambiguous_date,ambiguous_date,auto_renewal,true,true,accept,True,False,False,0.95,exact,

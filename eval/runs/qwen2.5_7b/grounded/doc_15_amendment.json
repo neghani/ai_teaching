@@ -1,0 +1,51 @@
+{
+  "raw": {
+    "vendor_name": {
+      "status": "found",
+      "evidence_quote": "\"Cedar Ridge Software, Inc., a wholly owned subsidiary of Cedar Ridge Capital Partners LP\"",
+      "page": 1,
+      "value": "Cedar Ridge Software, Inc.",
+      "confidence": 0.95
+    },
+    "effective_date": {
+      "status": "not_found",
+      "evidence_quote": null,
+      "page": null,
+      "value": null,
+      "confidence": 0
+    },
+    "term_months": {
+      "status": "found",
+      "evidence_quote": "\"The initial term of this Agreement is twelve (12) months\"",
+      "page": 1,
+      "value": 12,
+      "confidence": 0.95
+    },
+    "total_contract_value": {
+      "status": "found",
+      "evidence_quote": "\"The total contract value payable by Customer under this Agreement is EUR 463,000.00\"",
+      "page": 2,
+      "value": "EUR 463,000.00",
+      "confidence": 0.95
+    },
+    "termination_notice_days": {
+      "status": "found",
+      "evidence_quote": "\"Either party may terminate this Agreement for convenience upon ninety (90) days' prior written notice to the other party\"",
+      "page": 4,
+      "value": 90,
+      "confidence": 0.95
+    },
+    "auto_renewal": {
+      "status": "found",
+      "evidence_quote": "\"This Agreement shall not renew automatically\"",
+      "page": 1,
+      "value": false,
+      "confidence": 0.95
+    }
+  },
+  "usage": {
+    "prompt_tokens": 942,
+    "completion_tokens": 384,
+    "latency_s": 20.859
+  }
+}

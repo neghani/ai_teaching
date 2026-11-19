@@ -1,0 +1,33 @@
+{
+  "raw": {
+    "vendor_name": {
+      "value": "Orchard Point Consulting LLC",
+      "confidence": 1.0
+    },
+    "effective_date": {
+      "value": "2025-12-13",
+      "confidence": 1.0
+    },
+    "term_months": {
+      "value": 36,
+      "confidence": 1.0
+    },
+    "total_contract_value": {
+      "value": "USD 772,000.00",
+      "confidence": 1.0
+    },
+    "termination_notice_days": {
+      "value": 60,
+      "confidence": 1.0
+    },
+    "auto_renewal": {
+      "value": false,
+      "confidence": 1.0
+    }
+  },
+  "usage": {
+    "prompt_tokens": 813,
+    "completion_tokens": 177,
+    "latency_s": 11.041
+  }
+}

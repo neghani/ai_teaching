@@ -1,0 +1,33 @@
+{
+  "raw": {
+    "vendor_name": {
+      "value": "Northwind Analytics LLC",
+      "confidence": 1.0
+    },
+    "effective_date": {
+      "value": "2025-07-14",
+      "confidence": 1.0
+    },
+    "term_months": {
+      "value": 36,
+      "confidence": 1.0
+    },
+    "total_contract_value": {
+      "value": "USD 434,000.00",
+      "confidence": 1.0
+    },
+    "termination_notice_days": {
+      "value": 30,
+      "confidence": 1.0
+    },
+    "auto_renewal": {
+      "value": false,
+      "confidence": 1.0
+    }
+  },
+  "usage": {
+    "prompt_tokens": 771,
+    "completion_tokens": 175,
+    "latency_s": 11.86
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "raw": {
+    "vendor_name": {
+      "value": "Harborview Cloud Solutions LLC",
+      "confidence": 1
+    },
+    "effective_date": {
+      "value": "2025-07-17",
+      "confidence": 1
+    },
+    "term_months": {
+      "value": 24,
+      "confidence": 1
+    },
+    "total_contract_value": {
+      "value": "USD 633,000.00",
+      "confidence": 1
+    },
+    "termination_notice_days": {
+      "value": 45,
+      "confidence": 1
+    },
+    "auto_renewal": {
+      "value": true,
+      "confidence": 1
+    }
+  },
+  "usage": {
+    "prompt_tokens": 804,
+    "completion_tokens": 165,
+    "latency_s": 10.618
+  }
+}

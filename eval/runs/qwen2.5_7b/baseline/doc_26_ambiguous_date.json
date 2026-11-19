@@ -1,0 +1,33 @@
+{
+  "raw": {
+    "vendor_name": {
+      "value": "Bluefin Data Services Ltd.",
+      "confidence": 1
+    },
+    "effective_date": {
+      "value": "2025-03-04",
+      "confidence": 1
+    },
+    "term_months": {
+      "value": 48,
+      "confidence": 1
+    },
+    "total_contract_value": {
+      "value": "USD 88,000.00",
+      "confidence": 1
+    },
+    "termination_notice_days": {
+      "value": 90,
+      "confidence": 1
+    },
+    "auto_renewal": {
+      "value": false,
+      "confidence": 1
+    }
+  },
+  "usage": {
+    "prompt_tokens": 773,
+    "completion_tokens": 163,
+    "latency_s": 10.262
+  }
+}

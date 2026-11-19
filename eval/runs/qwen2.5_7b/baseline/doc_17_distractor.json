@@ -1,0 +1,33 @@
+{
+  "raw": {
+    "vendor_name": {
+      "value": "Quillstone Document Systems GmbH",
+      "confidence": 1.0
+    },
+    "effective_date": {
+      "value": "2025-02-24",
+      "confidence": 1.0
+    },
+    "term_months": {
+      "value": 24,
+      "confidence": 1.0
+    },
+    "total_contract_value": {
+      "value": "USD 688,000.00",
+      "confidence": 1.0
+    },
+    "termination_notice_days": {
+      "value": null,
+      "confidence": 0.0
+    },
+    "auto_renewal": {
+      "value": false,
+      "confidence": 1.0
+    }
+  },
+  "usage": {
+    "prompt_tokens": 805,
+    "completion_tokens": 175,
+    "latency_s": 10.961
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "raw": {
+    "vendor_name": {
+      "status": "found",
+      "evidence_quote": "\"by and between Foxglove Insurance Group Inc. (\"Customer\") and Northwind Analytics LLC, a wholly owned subsidiary of Northwind Holdings Inc. (\"Vendor\").\"",
+      "page": 1,
+      "value": "Northwind Analytics LLC",
+      "confidence": 1
+    },
+    "effective_date": {
+      "status": "found",
+      "evidence_quote": "\"This Master Services Agreement (the \"Agreement\") is entered into as of July 20, 2025 (the \"Effective Date\").\"",
+      "page": 1,
+      "value": "2025-07-20",
+      "confidence": 1
+    },
+    "term_months": {
+      "status": "found",
+      "evidence_quote": "\"2.1 The initial term of this Agreement is three (3) years, beginning on the Effective Date (the \"Initial Term\").\"",
+      "page": 2,
+      "value": 36,
+      "confidence": 1
+    },
+    "total_contract_value": {
+      "status": "found",
+      "evidence_quote": "\"3.1 The total contract value payable by Customer under this Agreement is USD 297,000 (the \"Total Contract Value\"), invoiced in equal monthly installments.\"",
+      "page": 2,
+      "value": "USD 297,000.00",
+      "confidence": 1
+    },
+    "termination_notice_days": {
+      "status": "not_found",
+      "evidence_quote": null,
+      "page": null,
+      "value": null,
+      "confidence": 0
+    },
+    "auto_renewal": {
+      "status": "not_found",
+      "evidence_quote": null,
+      "page": null,
+      "value": null,
+      "confidence": 0
+    }
+  },
+  "usage": {
+    "prompt_tokens": 816,
+    "completion_tokens": 427,
+    "latency_s": 22.643
+  }
+}

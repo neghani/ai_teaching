@@ -1,0 +1,175 @@
+{
+  "metrics": {
+    "baseline": {
+      "fields": 162,
+      "field_accuracy": 96.2,
+      "silent_error_rate": 4.9,
+      "silent_errors": 8,
+      "accepted_precision": 98.1,
+      "abstain_correctness": 50.0,
+      "review_rate": 0.0,
+      "reviews_where_model_was_right": 0,
+      "citation_validity": null,
+      "tokens_in_per_doc": 812,
+      "tokens_out_per_doc": 167,
+      "est_cost_per_1k_docs_usd": 0.22,
+      "latency_p50_s": 10.7,
+      "latency_p95_s": 11.6,
+      "verify_ms_per_doc": 0.25
+    },
+    "grounded": {
+      "fields": 162,
+      "field_accuracy": 89.9,
+      "silent_error_rate": 0.0,
+      "silent_errors": 0,
+      "accepted_precision": 100.0,
+      "abstain_correctness": 100.0,
+      "review_rate": 19.1,
+      "reviews_where_model_was_right": 15,
+      "citation_validity": 81.2,
+      "tokens_in_per_doc": 886,
+      "tokens_out_per_doc": 437,
+      "est_cost_per_1k_docs_usd": 0.39,
+      "latency_p50_s": 22.4,
+      "latency_p95_s": 27.1,
+      "verify_ms_per_doc": 2.49
+    }
+  },
+  "policy_iterations": [
+    {
+      "policy": "v1 strict",
+      "short": "v1\nstrict",
+      "review_rate": 28.4,
+      "silent_errors": 5,
+      "silent_error_rate": 3.1,
+      "accepted_precision": 100.0
+    },
+    {
+      "policy": "v2 + repair page citations",
+      "short": "v2\n+ page repair",
+      "review_rate": 12.3,
+      "silent_errors": 5,
+      "silent_error_rate": 3.1,
+      "accepted_precision": 100.0
+    },
+    {
+      "policy": "v3 + review missing required fields",
+      "short": "v3\n+ required fields",
+      "review_rate": 15.4,
+      "silent_errors": 0,
+      "silent_error_rate": 0.0,
+      "accepted_precision": 100.0
+    },
+    {
+      "policy": "v4 + quote must mention the field",
+      "short": "v4\n+ quote names field",
+      "review_rate": 19.1,
+      "silent_errors": 0,
+      "silent_error_rate": 0.0,
+      "accepted_precision": 100.0
+    }
+  ],
+  "sweep": [
+    {
+      "threshold": 50,
+      "review_rate": 19.1,
+      "silent_error_rate": 0.0
+    },
+    {
+      "threshold": 55,
+      "review_rate": 19.1,
+      "silent_error_rate": 0.0
+    },
+    {
+      "threshold": 60,
+      "review_rate": 19.1,
+      "silent_error_rate": 0.0
+    },
+    {
+      "threshold": 65,
+      "review_rate": 19.1,
+      "silent_error_rate": 0.0
+    },
+    {
+      "threshold": 70,
+      "review_rate": 19.1,
+      "silent_error_rate": 0.0
+    },
+    {
+      "threshold": 75,
+      "review_rate": 19.1,
+      "silent_error_rate": 0.0
+    },
+    {
+      "threshold": 80,
+      "review_rate": 19.1,
+      "silent_error_rate": 0.0
+    },
+    {
+      "threshold": 85,
+      "review_rate": 19.1,
+      "silent_error_rate": 0.0
+    },
+    {
+      "threshold": 90,
+      "review_rate": 19.1,
+      "silent_error_rate": 0.0
+    },
+    {
+      "threshold": 95,
+      "review_rate": 19.1,
+      "silent_error_rate": 0.0
+    },
+    {
+      "threshold": 100,
+      "review_rate": 28.4,
+      "silent_error_rate": 0.0
+    }
+  ],
+  "calibration": {
+    "baseline": [
+      {
+        "bin": "0.00-0.50",
+        "n": 0,
+        "accuracy": null
+      },
+      {
+        "bin": "0.50-0.80",
+        "n": 0,
+        "accuracy": null
+      },
+      {
+        "bin": "0.80-0.95",
+        "n": 2,
+        "accuracy": 100.0
+      },
+      {
+        "bin": "0.95-1.00",
+        "n": 153,
+        "accuracy": 98.0
+      }
+    ],
+    "grounded": [
+      {
+        "bin": "0.00-0.50",
+        "n": 0,
+        "accuracy": null
+      },
+      {
+        "bin": "0.50-0.80",
+        "n": 0,
+        "accuracy": null
+      },
+      {
+        "bin": "0.80-0.95",
+        "n": 1,
+        "accuracy": 0.0
+      },
+      {
+        "bin": "0.95-1.00",
+        "n": 143,
+        "accuracy": 99.3
+      }
+    ]
+  }
+}
