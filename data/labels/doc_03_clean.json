@@ -1,0 +1,14 @@
+{
+  "doc_id": "doc_03_clean",
+  "category": "clean",
+  "fields": {
+    "vendor_name": "Cedar Ridge Software, Inc.",
+    "effective_date": "2025-11-14",
+    "term_months": "12",
+    "total_contract_value": "GBP 466000.00",
+    "termination_notice_days": "45",
+    "auto_renewal": "true"
+  },
+  "expect_review": [],
+  "notes": ""
+}

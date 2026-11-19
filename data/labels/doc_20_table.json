@@ -1,0 +1,14 @@
+{
+  "doc_id": "doc_20_table",
+  "category": "table",
+  "fields": {
+    "vendor_name": "Orchard Point Consulting LLC",
+    "effective_date": "2025-12-13",
+    "term_months": "36",
+    "total_contract_value": "USD 772000.00",
+    "termination_notice_days": "60",
+    "auto_renewal": "false"
+  },
+  "expect_review": [],
+  "notes": "Total contract value only appears in a fee table."
+}

@@ -1,0 +1,14 @@
+{
+  "doc_id": "doc_04_clean",
+  "category": "clean",
+  "fields": {
+    "vendor_name": "Harborview Cloud Solutions LLC",
+    "effective_date": "2025-07-17",
+    "term_months": "24",
+    "total_contract_value": "USD 633000.00",
+    "termination_notice_days": "45",
+    "auto_renewal": "true"
+  },
+  "expect_review": [],
+  "notes": ""
+}

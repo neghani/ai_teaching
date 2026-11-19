@@ -1,0 +1,14 @@
+{
+  "doc_id": "doc_15_amendment",
+  "category": "amendment",
+  "fields": {
+    "vendor_name": "Cedar Ridge Software, Inc.",
+    "effective_date": "2025-12-01",
+    "term_months": "12",
+    "total_contract_value": "EUR 463000.00",
+    "termination_notice_days": "90",
+    "auto_renewal": "false"
+  },
+  "expect_review": [],
+  "notes": "Amendment No. 1 overrides date."
+}

@@ -1,0 +1,14 @@
+{
+  "doc_id": "doc_02_clean",
+  "category": "clean",
+  "fields": {
+    "vendor_name": "Bluefin Data Services Ltd.",
+    "effective_date": "2025-02-26",
+    "term_months": "24",
+    "total_contract_value": "USD 624000.00",
+    "termination_notice_days": "30",
+    "auto_renewal": "false"
+  },
+  "expect_review": [],
+  "notes": ""
+}

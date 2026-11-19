@@ -1,0 +1,14 @@
+{
+  "doc_id": "doc_11_missing",
+  "category": "missing",
+  "fields": {
+    "vendor_name": "Lumen Harbor IT Services Ltd.",
+    "effective_date": "2025-01-19",
+    "term_months": "12",
+    "total_contract_value": "USD 816000.00",
+    "termination_notice_days": null,
+    "auto_renewal": "true"
+  },
+  "expect_review": [],
+  "notes": "No termination notice period."
+}

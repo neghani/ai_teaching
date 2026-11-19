@@ -1,0 +1,14 @@
+{
+  "doc_id": "doc_06_clean",
+  "category": "clean",
+  "fields": {
+    "vendor_name": "Silverline Logistics Software Inc.",
+    "effective_date": "2025-08-24",
+    "term_months": "48",
+    "total_contract_value": "USD 775000.00",
+    "termination_notice_days": "30",
+    "auto_renewal": "true"
+  },
+  "expect_review": [],
+  "notes": ""
+}

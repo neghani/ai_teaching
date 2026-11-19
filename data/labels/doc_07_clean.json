@@ -1,0 +1,14 @@
+{
+  "doc_id": "doc_07_clean",
+  "category": "clean",
+  "fields": {
+    "vendor_name": "Tessellate AI Labs LLC",
+    "effective_date": "2025-12-27",
+    "term_months": "48",
+    "total_contract_value": "USD 180000.00",
+    "termination_notice_days": "90",
+    "auto_renewal": "true"
+  },
+  "expect_review": [],
+  "notes": ""
+}

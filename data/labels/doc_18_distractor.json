@@ -1,0 +1,14 @@
+{
+  "doc_id": "doc_18_distractor",
+  "category": "distractor",
+  "fields": {
+    "vendor_name": "Silverline Logistics Software Inc.",
+    "effective_date": "2025-06-28",
+    "term_months": "36",
+    "total_contract_value": "EUR 537000.00",
+    "termination_notice_days": "90",
+    "auto_renewal": "true"
+  },
+  "expect_review": [],
+  "notes": "Distractors: onboarding_fee, cure_period"
+}

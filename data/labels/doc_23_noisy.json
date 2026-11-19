@@ -1,0 +1,14 @@
+{
+  "doc_id": "doc_23_noisy",
+  "category": "noisy",
+  "fields": {
+    "vendor_name": "Lumen Harbor IT Services Ltd.",
+    "effective_date": "2025-12-24",
+    "term_months": "36",
+    "total_contract_value": "USD 292000.00",
+    "termination_notice_days": "45",
+    "auto_renewal": "true"
+  },
+  "expect_review": [],
+  "notes": "OCR-like character noise."
+}

@@ -1,0 +1,14 @@
+{
+  "doc_id": "doc_22_noisy",
+  "category": "noisy",
+  "fields": {
+    "vendor_name": "Pinecrest Records Management LLC",
+    "effective_date": "2025-09-28",
+    "term_months": "24",
+    "total_contract_value": "USD 869000.00",
+    "termination_notice_days": "90",
+    "auto_renewal": "true"
+  },
+  "expect_review": [],
+  "notes": "OCR-like character noise."
+}

@@ -1,0 +1,14 @@
+{
+  "doc_id": "doc_14_amendment",
+  "category": "amendment",
+  "fields": {
+    "vendor_name": "Bluefin Data Services Ltd.",
+    "effective_date": "2025-05-13",
+    "term_months": "24",
+    "total_contract_value": "USD 754000.00",
+    "termination_notice_days": "60",
+    "auto_renewal": "false"
+  },
+  "expect_review": [],
+  "notes": "Amendment No. 1 overrides value."
+}

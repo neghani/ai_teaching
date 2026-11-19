@@ -1,0 +1,14 @@
+{
+  "doc_id": "doc_16_amendment",
+  "category": "amendment",
+  "fields": {
+    "vendor_name": "Harborview Cloud Solutions LLC",
+    "effective_date": "2025-02-19",
+    "term_months": "24",
+    "total_contract_value": "USD 172000.00",
+    "termination_notice_days": "30",
+    "auto_renewal": "true"
+  },
+  "expect_review": [],
+  "notes": "Amendment No. 1 overrides term."
+}

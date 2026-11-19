@@ -1,0 +1,14 @@
+{
+  "doc_id": "doc_17_distractor",
+  "category": "distractor",
+  "fields": {
+    "vendor_name": "Quillstone Document Systems GmbH",
+    "effective_date": "2025-02-24",
+    "term_months": "24",
+    "total_contract_value": "USD 688000.00",
+    "termination_notice_days": "45",
+    "auto_renewal": "false"
+  },
+  "expect_review": [],
+  "notes": "Distractors: liability_cap, late_fee"
+}

@@ -1,0 +1,14 @@
+{
+  "doc_id": "doc_05_clean",
+  "category": "clean",
+  "fields": {
+    "vendor_name": "Quillstone Document Systems GmbH",
+    "effective_date": "2025-02-15",
+    "term_months": "24",
+    "total_contract_value": "USD 568000.00",
+    "termination_notice_days": "90",
+    "auto_renewal": "false"
+  },
+  "expect_review": [],
+  "notes": ""
+}

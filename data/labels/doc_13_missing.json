@@ -1,0 +1,14 @@
+{
+  "doc_id": "doc_13_missing",
+  "category": "missing",
+  "fields": {
+    "vendor_name": "Northwind Analytics LLC",
+    "effective_date": "2025-07-20",
+    "term_months": "36",
+    "total_contract_value": "USD 297000.00",
+    "termination_notice_days": null,
+    "auto_renewal": null
+  },
+  "expect_review": [],
+  "notes": "No notice period and no renewal clause."
+}

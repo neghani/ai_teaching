@@ -1,0 +1,14 @@
+{
+  "doc_id": "doc_01_clean",
+  "category": "clean",
+  "fields": {
+    "vendor_name": "Northwind Analytics LLC",
+    "effective_date": "2025-07-14",
+    "term_months": "36",
+    "total_contract_value": "USD 434000.00",
+    "termination_notice_days": "30",
+    "auto_renewal": "false"
+  },
+  "expect_review": [],
+  "notes": ""
+}

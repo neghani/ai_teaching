@@ -1,0 +1,14 @@
+{
+  "doc_id": "doc_12_missing",
+  "category": "missing",
+  "fields": {
+    "vendor_name": "Granite Bay Analytics Inc.",
+    "effective_date": "2025-03-27",
+    "term_months": "48",
+    "total_contract_value": "USD 898000.00",
+    "termination_notice_days": "60",
+    "auto_renewal": null
+  },
+  "expect_review": [],
+  "notes": "No renewal clause."
+}

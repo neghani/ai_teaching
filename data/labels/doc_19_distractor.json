@@ -1,0 +1,14 @@
+{
+  "doc_id": "doc_19_distractor",
+  "category": "distractor",
+  "fields": {
+    "vendor_name": "Tessellate AI Labs LLC",
+    "effective_date": "2025-12-23",
+    "term_months": "24",
+    "total_contract_value": "USD 588000.00",
+    "termination_notice_days": "45",
+    "auto_renewal": "false"
+  },
+  "expect_review": [],
+  "notes": "Distractors: liability_cap, data_return, cure_period"
+}
