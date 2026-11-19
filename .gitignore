@@ -1,0 +1,27 @@
+# Private planning notes (not for readers)
+_planning/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+.cursor/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Local outputs
+*.log
+review.jsonl
