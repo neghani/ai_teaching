@@ -1,0 +1,14 @@
+{
+  "doc_id": "ho_09_clean",
+  "category": "clean",
+  "fields": {
+    "vendor_name": "Ivybridge Software Inc.",
+    "effective_date": "2025-03-22",
+    "term_months": "36",
+    "total_contract_value": "USD 864000.00",
+    "termination_notice_days": "30",
+    "auto_renewal": "true"
+  },
+  "expect_review": [],
+  "notes": ""
+}

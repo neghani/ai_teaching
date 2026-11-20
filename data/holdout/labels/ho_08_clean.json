@@ -1,0 +1,14 @@
+{
+  "doc_id": "ho_08_clean",
+  "category": "clean",
+  "fields": {
+    "vendor_name": "Hollins Document Solutions LLC",
+    "effective_date": "2025-06-21",
+    "term_months": "24",
+    "total_contract_value": "EUR 224000.00",
+    "termination_notice_days": "60",
+    "auto_renewal": "false"
+  },
+  "expect_review": [],
+  "notes": ""
+}

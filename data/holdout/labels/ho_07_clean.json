@@ -1,0 +1,14 @@
+{
+  "doc_id": "ho_07_clean",
+  "category": "clean",
+  "fields": {
+    "vendor_name": "Glenrock Analytics Ltd.",
+    "effective_date": "2025-03-24",
+    "term_months": "24",
+    "total_contract_value": "USD 423000.00",
+    "termination_notice_days": "45",
+    "auto_renewal": "true"
+  },
+  "expect_review": [],
+  "notes": ""
+}

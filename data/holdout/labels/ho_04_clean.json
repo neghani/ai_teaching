@@ -1,0 +1,14 @@
+{
+  "doc_id": "ho_04_clean",
+  "category": "clean",
+  "fields": {
+    "vendor_name": "Dunmore Cloud Archiving LLC",
+    "effective_date": "2025-06-24",
+    "term_months": "48",
+    "total_contract_value": "USD 542000.00",
+    "termination_notice_days": "30",
+    "auto_renewal": "true"
+  },
+  "expect_review": [],
+  "notes": ""
+}

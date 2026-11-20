@@ -1,0 +1,14 @@
+{
+  "doc_id": "ho_02_clean",
+  "category": "clean",
+  "fields": {
+    "vendor_name": "Brightwater Systems Ltd.",
+    "effective_date": "2025-01-28",
+    "term_months": "48",
+    "total_contract_value": "USD 262000.00",
+    "termination_notice_days": "30",
+    "auto_renewal": "true"
+  },
+  "expect_review": [],
+  "notes": ""
+}

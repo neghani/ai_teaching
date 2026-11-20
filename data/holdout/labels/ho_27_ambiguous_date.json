@@ -1,0 +1,16 @@
+{
+  "doc_id": "ho_27_ambiguous_date",
+  "category": "ambiguous_date",
+  "fields": {
+    "vendor_name": "Glenrock Analytics Ltd.",
+    "effective_date": "2025-09-10",
+    "term_months": "48",
+    "total_contract_value": "USD 781000.00",
+    "termination_notice_days": "30",
+    "auto_renewal": "true"
+  },
+  "expect_review": [
+    "effective_date"
+  ],
+  "notes": "Effective date written as MM/DD/YYYY; the day-first reading is also a valid date."
+}

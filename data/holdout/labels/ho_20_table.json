@@ -1,0 +1,14 @@
+{
+  "doc_id": "ho_20_table",
+  "category": "table",
+  "fields": {
+    "vendor_name": "Juniper Lane Consulting LLC",
+    "effective_date": "2025-02-25",
+    "term_months": "12",
+    "total_contract_value": "EUR 217000.00",
+    "termination_notice_days": "60",
+    "auto_renewal": "true"
+  },
+  "expect_review": [],
+  "notes": "Total contract value only appears in a fee table."
+}

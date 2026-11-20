@@ -1,0 +1,14 @@
+{
+  "doc_id": "ho_23_noisy",
+  "category": "noisy",
+  "fields": {
+    "vendor_name": "Corvid Information Services Inc.",
+    "effective_date": "2025-02-15",
+    "term_months": "24",
+    "total_contract_value": "USD 665000.00",
+    "termination_notice_days": "30",
+    "auto_renewal": "false"
+  },
+  "expect_review": [],
+  "notes": "OCR-like character noise."
+}

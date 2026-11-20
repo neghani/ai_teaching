@@ -1,0 +1,14 @@
+{
+  "doc_id": "ho_12_missing",
+  "category": "missing",
+  "fields": {
+    "vendor_name": "Brightwater Systems Ltd.",
+    "effective_date": "2025-02-23",
+    "term_months": "48",
+    "total_contract_value": "USD 578000.00",
+    "termination_notice_days": "90",
+    "auto_renewal": null
+  },
+  "expect_review": [],
+  "notes": "No renewal clause."
+}

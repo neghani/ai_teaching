@@ -1,0 +1,14 @@
+{
+  "doc_id": "ho_11_missing",
+  "category": "missing",
+  "fields": {
+    "vendor_name": "Ashgrove Data Partners LLC",
+    "effective_date": "2025-10-17",
+    "term_months": "48",
+    "total_contract_value": "EUR 463000.00",
+    "termination_notice_days": null,
+    "auto_renewal": "false"
+  },
+  "expect_review": [],
+  "notes": "No termination notice period."
+}

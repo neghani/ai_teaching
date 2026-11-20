@@ -1,0 +1,14 @@
+{
+  "doc_id": "ho_17_distractor",
+  "category": "distractor",
+  "fields": {
+    "vendor_name": "Glenrock Analytics Ltd.",
+    "effective_date": "2025-10-19",
+    "term_months": "48",
+    "total_contract_value": "USD 620000.00",
+    "termination_notice_days": "30",
+    "auto_renewal": "false"
+  },
+  "expect_review": [],
+  "notes": "Distractors: insurance, termination_fee"
+}

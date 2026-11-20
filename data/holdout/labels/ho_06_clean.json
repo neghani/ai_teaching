@@ -1,0 +1,14 @@
+{
+  "doc_id": "ho_06_clean",
+  "category": "clean",
+  "fields": {
+    "vendor_name": "Fairhaven Records Inc.",
+    "effective_date": "2025-09-28",
+    "term_months": "24",
+    "total_contract_value": "GBP 521000.00",
+    "termination_notice_days": "45",
+    "auto_renewal": "false"
+  },
+  "expect_review": [],
+  "notes": ""
+}

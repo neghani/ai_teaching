@@ -1,0 +1,14 @@
+{
+  "doc_id": "ho_13_missing",
+  "category": "missing",
+  "fields": {
+    "vendor_name": "Corvid Information Services Inc.",
+    "effective_date": "2025-08-17",
+    "term_months": "48",
+    "total_contract_value": "EUR 219000.00",
+    "termination_notice_days": null,
+    "auto_renewal": null
+  },
+  "expect_review": [],
+  "notes": "No notice period and no renewal clause."
+}

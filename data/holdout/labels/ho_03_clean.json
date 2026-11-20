@@ -1,0 +1,14 @@
+{
+  "doc_id": "ho_03_clean",
+  "category": "clean",
+  "fields": {
+    "vendor_name": "Corvid Information Services Inc.",
+    "effective_date": "2025-10-23",
+    "term_months": "24",
+    "total_contract_value": "GBP 170000.00",
+    "termination_notice_days": "90",
+    "auto_renewal": "false"
+  },
+  "expect_review": [],
+  "notes": ""
+}

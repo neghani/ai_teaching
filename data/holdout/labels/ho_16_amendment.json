@@ -1,0 +1,14 @@
+{
+  "doc_id": "ho_16_amendment",
+  "category": "amendment",
+  "fields": {
+    "vendor_name": "Fairhaven Records Inc.",
+    "effective_date": "2025-10-20",
+    "term_months": "24",
+    "total_contract_value": "USD 546000.00",
+    "termination_notice_days": "30",
+    "auto_renewal": "false"
+  },
+  "expect_review": [],
+  "notes": "Amendment No. 1 overrides term."
+}

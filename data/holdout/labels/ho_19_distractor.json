@@ -1,0 +1,14 @@
+{
+  "doc_id": "ho_19_distractor",
+  "category": "distractor",
+  "fields": {
+    "vendor_name": "Ivybridge Software Inc.",
+    "effective_date": "2025-09-19",
+    "term_months": "12",
+    "total_contract_value": "USD 434000.00",
+    "termination_notice_days": "30",
+    "auto_renewal": "true"
+  },
+  "expect_review": [],
+  "notes": "Distractors: liability_cap, onboarding_fee, data_return"
+}

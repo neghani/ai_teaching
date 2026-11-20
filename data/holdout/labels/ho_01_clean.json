@@ -1,0 +1,14 @@
+{
+  "doc_id": "ho_01_clean",
+  "category": "clean",
+  "fields": {
+    "vendor_name": "Ashgrove Data Partners LLC",
+    "effective_date": "2025-06-23",
+    "term_months": "12",
+    "total_contract_value": "USD 704000.00",
+    "termination_notice_days": "90",
+    "auto_renewal": "false"
+  },
+  "expect_review": [],
+  "notes": ""
+}

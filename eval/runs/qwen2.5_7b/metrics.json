@@ -15,7 +15,7 @@
       "est_cost_per_1k_docs_usd": 0.22,
       "latency_p50_s": 10.7,
       "latency_p95_s": 11.6,
-      "verify_ms_per_doc": 0.25
+      "verify_ms_per_doc": 0.27
     },
     "grounded": {
       "fields": 162,
@@ -32,7 +32,7 @@
       "est_cost_per_1k_docs_usd": 0.39,
       "latency_p50_s": 22.4,
       "latency_p95_s": 27.1,
-      "verify_ms_per_doc": 2.49
+      "verify_ms_per_doc": 6.45
     }
   },
   "policy_iterations": [

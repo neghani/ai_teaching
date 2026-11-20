@@ -1,0 +1,14 @@
+{
+  "doc_id": "ho_15_amendment",
+  "category": "amendment",
+  "fields": {
+    "vendor_name": "Elmstead Automation GmbH",
+    "effective_date": "2025-08-01",
+    "term_months": "36",
+    "total_contract_value": "USD 441000.00",
+    "termination_notice_days": "90",
+    "auto_renewal": "false"
+  },
+  "expect_review": [],
+  "notes": "Amendment No. 1 overrides date."
+}

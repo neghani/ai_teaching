@@ -1,0 +1,14 @@
+{
+  "doc_id": "ho_21_table",
+  "category": "table",
+  "fields": {
+    "vendor_name": "Ashgrove Data Partners LLC",
+    "effective_date": "2025-09-28",
+    "term_months": "24",
+    "total_contract_value": "EUR 670000.00",
+    "termination_notice_days": "90",
+    "auto_renewal": "true"
+  },
+  "expect_review": [],
+  "notes": "Total contract value only appears in a fee table."
+}

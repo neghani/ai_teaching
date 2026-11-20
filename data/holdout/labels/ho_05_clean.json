@@ -1,0 +1,14 @@
+{
+  "doc_id": "ho_05_clean",
+  "category": "clean",
+  "fields": {
+    "vendor_name": "Elmstead Automation GmbH",
+    "effective_date": "2025-05-28",
+    "term_months": "12",
+    "total_contract_value": "GBP 294000.00",
+    "termination_notice_days": "60",
+    "auto_renewal": "true"
+  },
+  "expect_review": [],
+  "notes": ""
+}

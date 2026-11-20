@@ -1,0 +1,14 @@
+{
+  "doc_id": "ho_10_clean",
+  "category": "clean",
+  "fields": {
+    "vendor_name": "Juniper Lane Consulting LLC",
+    "effective_date": "2025-12-15",
+    "term_months": "12",
+    "total_contract_value": "USD 534000.00",
+    "termination_notice_days": "90",
+    "auto_renewal": "true"
+  },
+  "expect_review": [],
+  "notes": ""
+}

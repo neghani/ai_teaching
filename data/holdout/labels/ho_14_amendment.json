@@ -1,0 +1,14 @@
+{
+  "doc_id": "ho_14_amendment",
+  "category": "amendment",
+  "fields": {
+    "vendor_name": "Dunmore Cloud Archiving LLC",
+    "effective_date": "2025-08-18",
+    "term_months": "24",
+    "total_contract_value": "USD 515000.00",
+    "termination_notice_days": "30",
+    "auto_renewal": "true"
+  },
+  "expect_review": [],
+  "notes": "Amendment No. 1 overrides value."
+}

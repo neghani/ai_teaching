@@ -1,0 +1,14 @@
+{
+  "doc_id": "ho_18_distractor",
+  "category": "distractor",
+  "fields": {
+    "vendor_name": "Hollins Document Solutions LLC",
+    "effective_date": "2025-06-27",
+    "term_months": "24",
+    "total_contract_value": "USD 223000.00",
+    "termination_notice_days": "30",
+    "auto_renewal": "true"
+  },
+  "expect_review": [],
+  "notes": "Distractors: late_fee, cure_period"
+}
