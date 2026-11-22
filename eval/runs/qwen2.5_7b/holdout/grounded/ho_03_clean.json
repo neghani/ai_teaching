@@ -1,0 +1,51 @@
+{
+  "raw": {
+    "vendor_name": {
+      "status": "found",
+      "evidence_quote": "\"Corvid Information Services Inc.\" (\"Vendor\")",
+      "page": 1,
+      "value": "Corvid Information Services Inc.",
+      "confidence": 1
+    },
+    "effective_date": {
+      "status": "found",
+      "evidence_quote": "\"This Agreement is dated October 23, 2025 (the \\",
+      "page": 1,
+      "value": "2025-10-23",
+      "confidence": 1
+    },
+    "term_months": {
+      "status": "found",
+      "evidence_quote": "\"This Agreement commences on the Effective Date and continues for twenty-four (24) months (the \\",
+      "page": 1,
+      "value": 24,
+      "confidence": 1
+    },
+    "total_contract_value": {
+      "status": "not_found",
+      "evidence_quote": null,
+      "page": null,
+      "value": null,
+      "confidence": 0
+    },
+    "termination_notice_days": {
+      "status": "found",
+      "evidence_quote": "\"Either party may end this Agreement for convenience on 90 days' written notice to the other.\"",
+      "page": 3,
+      "value": 90,
+      "confidence": 1
+    },
+    "auto_renewal": {
+      "status": "found",
+      "evidence_quote": "\"Any renewal of this Agreement must be agreed in writing by both parties; it will not renew by default.\"",
+      "page": 2,
+      "value": false,
+      "confidence": 1
+    }
+  },
+  "usage": {
+    "prompt_tokens": 822,
+    "completion_tokens": 373,
+    "latency_s": 59.222
+  }
+}

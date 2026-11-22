@@ -1,0 +1,33 @@
+{
+  "raw": {
+    "vendor_name": {
+      "value": "Dunmore Cloud Archiving LLC",
+      "confidence": 1.0
+    },
+    "effective_date": {
+      "value": "2025-06-24",
+      "confidence": 1.0
+    },
+    "term_months": {
+      "value": 48,
+      "confidence": 1.0
+    },
+    "total_contract_value": {
+      "value": "USD 542,000.00",
+      "confidence": 1.0
+    },
+    "termination_notice_days": {
+      "value": null,
+      "confidence": 0.0
+    },
+    "auto_renewal": {
+      "value": true,
+      "confidence": 1.0
+    }
+  },
+  "usage": {
+    "prompt_tokens": 751,
+    "completion_tokens": 176,
+    "latency_s": 10.736
+  }
+}

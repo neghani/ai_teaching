@@ -1,0 +1,51 @@
+{
+  "raw": {
+    "vendor_name": {
+      "status": "found",
+      "evidence_quote": "\"Vendor: Brightwater Systems Ltd.\"",
+      "page": 3,
+      "value": "Brightwater Systems Ltd.",
+      "confidence": 1
+    },
+    "effective_date": {
+      "status": "found",
+      "evidence_quote": "\"This Agreement is dated 2025-02-23 (the \\\"Effective Date\\\")\"",
+      "page": 1,
+      "value": "2025-02-23",
+      "confidence": 1
+    },
+    "term_months": {
+      "status": "found",
+      "evidence_quote": "\"This Agreement commences on the Effective Date and continues for forty-eight (48) months\"",
+      "page": 2,
+      "value": 48,
+      "confidence": 1
+    },
+    "total_contract_value": {
+      "status": "found",
+      "evidence_quote": "\"Customer will pay fees totaling $578,000.00 over the Initial Term\"",
+      "page": 2,
+      "value": "USD 578,000.00",
+      "confidence": 1
+    },
+    "termination_notice_days": {
+      "status": "found",
+      "evidence_quote": "\"Either party may end this Agreement for convenience on 90 days' written notice to the other\"",
+      "page": 3,
+      "value": 90,
+      "confidence": 1
+    },
+    "auto_renewal": {
+      "status": "not_found",
+      "evidence_quote": null,
+      "page": null,
+      "value": null,
+      "confidence": 0
+    }
+  },
+  "usage": {
+    "prompt_tokens": 805,
+    "completion_tokens": 382,
+    "latency_s": 20.443
+  }
+}

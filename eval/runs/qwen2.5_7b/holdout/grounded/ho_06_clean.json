@@ -1,0 +1,51 @@
+{
+  "raw": {
+    "vendor_name": {
+      "status": "found",
+      "evidence_quote": "\"Fairhaven Records Inc. (''Vendor''), a subsidiary of Fairhaven Partners LP\"",
+      "page": 1,
+      "value": "Fairhaven Records Inc.",
+      "confidence": 1
+    },
+    "effective_date": {
+      "status": "found",
+      "evidence_quote": "\"enter into this Agreement effective as of 2025-09-28 (the ''Effective Date'').\"",
+      "page": 1,
+      "value": "2025-09-28",
+      "confidence": 1
+    },
+    "term_months": {
+      "status": "found",
+      "evidence_quote": "\"This Agreement will remain in force for twenty-four (24) months from the Effective Date.\"",
+      "page": 2,
+      "value": 24,
+      "confidence": 1
+    },
+    "total_contract_value": {
+      "status": "found",
+      "evidence_quote": "\"The aggregate fees payable under this Agreement are GBP 521,000.00\"",
+      "page": 2,
+      "value": "GBP 521,000.00",
+      "confidence": 1
+    },
+    "termination_notice_days": {
+      "status": "not_found",
+      "evidence_quote": null,
+      "page": null,
+      "value": null,
+      "confidence": 0
+    },
+    "auto_renewal": {
+      "status": "found",
+      "evidence_quote": "\"There is no automatic renewal of this Agreement.\"",
+      "page": 2,
+      "value": false,
+      "confidence": 1
+    }
+  },
+  "usage": {
+    "prompt_tokens": 804,
+    "completion_tokens": 383,
+    "latency_s": 21.165
+  }
+}

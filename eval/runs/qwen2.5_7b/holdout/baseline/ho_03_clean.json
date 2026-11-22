@@ -1,0 +1,33 @@
+{
+  "raw": {
+    "vendor_name": {
+      "value": "Corvid Information Services Inc.",
+      "confidence": 1
+    },
+    "effective_date": {
+      "value": "2025-10-23",
+      "confidence": 1
+    },
+    "term_months": {
+      "value": 24,
+      "confidence": 1
+    },
+    "total_contract_value": {
+      "value": "GBP 170,000.00",
+      "confidence": 1
+    },
+    "termination_notice_days": {
+      "value": 90,
+      "confidence": 1
+    },
+    "auto_renewal": {
+      "value": false,
+      "confidence": 1
+    }
+  },
+  "usage": {
+    "prompt_tokens": 748,
+    "completion_tokens": 164,
+    "latency_s": 75.146
+  }
+}

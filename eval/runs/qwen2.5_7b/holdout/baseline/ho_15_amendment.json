@@ -1,0 +1,33 @@
+{
+  "raw": {
+    "vendor_name": {
+      "value": "Elmstead Automation GmbH",
+      "confidence": 1
+    },
+    "effective_date": {
+      "value": "2025-08-01",
+      "confidence": 1
+    },
+    "term_months": {
+      "value": null,
+      "confidence": 0.7
+    },
+    "total_contract_value": {
+      "value": "USD 441,000.00",
+      "confidence": 1
+    },
+    "termination_notice_days": {
+      "value": 90,
+      "confidence": 1
+    },
+    "auto_renewal": {
+      "value": false,
+      "confidence": 1
+    }
+  },
+  "usage": {
+    "prompt_tokens": 832,
+    "completion_tokens": 164,
+    "latency_s": 11.857
+  }
+}

@@ -4,7 +4,7 @@
 
 **Status:** draft, with results from the first full run · **Series:** [Production AI for Document-Heavy Workflows](../../README.md), part 1 of 8
 
-**TL;DR:** Don't trust what the model says about its own confidence. Make it show evidence (a quote and a page number for every field), check that evidence with code, and send anything unverified to a human reviewer. On 27 synthetic contracts with a local 7B model, this took silent errors from **8 to 0**, at the cost of sending **19% of fields** to human review.
+**TL;DR:** Don't trust what the model says about its own confidence. Make it show evidence (a quote and a page number for every field), check that evidence with code, and send anything unverified to a human reviewer. On 27 synthetic contracts with a local 7B model, this took silent errors from **8 to 0**, at the cost of sending **19% of fields** to human review. On 27 held-out contracts with new wording, silent errors stayed at 0 (baseline: 14), but the review rate tripled. One rule had overfit to the wording it was designed on.
 
 **You will learn how to:**
 
@@ -236,19 +236,39 @@ The biggest cause of non-exact quotes turned out to be an encoding artifact: the
 - **Noise and tables cost review time.** 6 of the 12 fields on OCR-noisy documents went to review, and in 5 of them the model had read the value correctly ("contract valuc" breaks the keyword checks). Fee tables break sentence-based conflict detection. Both are parsing problems; that's article 3.
 - **Field accuracy went down.** The grounded model abstained more (89.9% vs 96.2% accuracy). Those abstentions were caught, but they still cost review time.
 
+### The held-out test: the safety held, the review cost didn't
+
+The v3 and v4 rules were designed after looking at errors on the dev set, so the numbers above are optimistic. To check, I froze the rules (and committed them) and generated 27 **new** contracts: different companies, a different seed, and different clause wording ("aggregate fees" instead of "total contract value", "end this Agreement" instead of "terminate", "the 4th day of March, 2025" dates, injections phrased in new ways). Full results: [`eval/report_holdout.md`](../../eval/report_holdout.md).
+
+| Policy | Dev: review rate | Dev: silent errors | Holdout: review rate | Holdout: silent errors |
+|---|---|---|---|---|
+| Baseline (accept everything) | 0% | 8 | 0% | **14** |
+| v1 strict | 28.4% | 5 | 33.3% | 17 |
+| v2 + repair page citations | 12.3% | 5 | 21.6% | 17 |
+| v3 + review missing required fields | 15.4% | 0 | 32.1% | **0** |
+| v4 + quote must mention the field | 19.1% | 0 | **61.7%** | 0 |
+
+![Policy iterations on the held-out set](assets/policy_iterations_holdout.png)
+
+- **The safety property generalized.** Zero silent errors on unseen wording, while the baseline's silent errors rose from 8 to 14, including a contract value taken from before an amendment and an ambiguous date read the wrong way, both at high confidence.
+- **The review cost did not.** The v4 rule's keywords were written for the dev wording. On new phrasing, 54 fields failed that check, and the review rate nearly doubled compared with v3, to 62%. In 66 of the 100 reviewed fields, the model had the right value.
+- **v1 and v2 were worse than the baseline on unseen data** (17 silent errors vs 14). The grounded prompt makes the model abstain more, and without the required-field rule those abstentions pass silently. Asking for evidence only helps if abstentions are checked too.
+
+On this evidence, v3 is the better default. But choosing it *now* would mean tuning on the holdout set, which makes it one more dev set. The honest procedure is to make the change and then measure on a fresh held-out set. That's where article 2 starts.
+
 ### Limits of this evaluation
 
-- 27 synthetic, template-based documents. Real contracts are messier.
+- 27 + 27 synthetic, template-based documents. Real contracts are messier.
 - One model, one run. Results for a hosted model could differ a lot.
-- The v3 and v4 rules were designed after looking at errors on **this same set**. Zero silent errors here is not a promise on new documents. Measuring the policy on a held-out set is the subject of article 2.
+- Holdout latency numbers are not comparable to dev: the machine was under other load during that run.
 
 ## 10. Lessons learned
 
-1. **Measure silent errors, not accuracy.** The baseline was more accurate (96% vs 90%) and still the worse system, because nobody could see its mistakes.
-2. **Make the model show its work, then check it with boring code.** The verifier is a few hundred lines of regex and string matching, runs in 2.5 ms, and caught every error in this run.
+1. **Measure silent errors, not accuracy.** The baseline was more accurate (96% vs 90% on dev, 92% vs 79% on holdout) and still the worse system, because nobody could see its mistakes.
+2. **Make the model show its work, then check it with boring code.** The verifier is a few hundred lines of regex and string matching, runs in milliseconds, and caught every error on both the dev and held-out sets.
 3. **Every rule has a review cost; measure it.** Cache model outputs so you can replay policy changes for free, and track how often reviewers see fields the model already got right.
 
-**What I'd do differently:** build a held-out test set from day one, before writing any policy rules.
+**What I'd do differently:** build the held-out set on day one, and treat keyword rules as suspect until they survive wording they weren't written for. The v4 rule looked free on the dev set and tripled the review load on new documents.
 
 **Next in the series:** evaluation and regression testing, so that a prompt, model or policy change can only ship if these numbers hold.
 

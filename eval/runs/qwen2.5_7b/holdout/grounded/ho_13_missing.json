@@ -1,0 +1,51 @@
+{
+  "raw": {
+    "vendor_name": {
+      "status": "found",
+      "evidence_quote": "\"Corvid Information Services Inc. (\"Vendor\",",
+      "page": 1,
+      "value": "Corvid Information Services Inc.",
+      "confidence": 1
+    },
+    "effective_date": {
+      "status": "found",
+      "evidence_quote": "\"This Agreement will remain in force for four (4) years from the Effective Date.\"",
+      "page": 3,
+      "value": "2025-08-17",
+      "confidence": 1
+    },
+    "term_months": {
+      "status": "not_found",
+      "evidence_quote": null,
+      "page": null,
+      "value": null,
+      "confidence": 0
+    },
+    "total_contract_value": {
+      "status": "not_found",
+      "evidence_quote": null,
+      "page": null,
+      "value": null,
+      "confidence": 0
+    },
+    "termination_notice_days": {
+      "status": "not_found",
+      "evidence_quote": null,
+      "page": null,
+      "value": null,
+      "confidence": 0
+    },
+    "auto_renewal": {
+      "status": "not_found",
+      "evidence_quote": null,
+      "page": null,
+      "value": null,
+      "confidence": 0
+    }
+  },
+  "usage": {
+    "prompt_tokens": 783,
+    "completion_tokens": 308,
+    "latency_s": 17.444
+  }
+}
